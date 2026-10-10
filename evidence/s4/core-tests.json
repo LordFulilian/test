@@ -1,0 +1,57 @@
+{
+  "proof": "Unit tests only; not device/player acceptance",
+  "records": [
+    {
+      "name": "chapter1: same content except board size, valid independent profiles",
+      "passed": true
+    },
+    {
+      "name": "chapter2: same content except board size, valid independent profiles",
+      "passed": true
+    },
+    {
+      "name": "pressure: same content except board size, valid independent profiles",
+      "passed": true
+    },
+    {
+      "name": "effective time excludes background pause and caps at 10 minutes",
+      "passed": true
+    },
+    {
+      "name": "repeated full clicks consolidate; opening a slot permits a new block",
+      "passed": true
+    },
+    {
+      "name": "queue-capacity refusals are not board-full events",
+      "passed": true
+    },
+    {
+      "name": "pressure cleaning excluded; orders use confirmed transaction delta",
+      "passed": true
+    },
+    {
+      "name": "natural cleaning, transaction occupancy and new decor node time recorded",
+      "passed": true
+    },
+    {
+      "name": "misdrags require review; probes separate from intended denominator",
+      "passed": true
+    },
+    {
+      "name": "frame histogram reports p95 and long frames without storing every frame",
+      "passed": true
+    },
+    {
+      "name": "empty template and browser-only data cannot choose a production board",
+      "passed": true
+    },
+    {
+      "name": "test namespace cannot truncate or replace main or other-preset saves",
+      "passed": true
+    },
+    {
+      "name": "all S4 interactive scene paths exist",
+      "passed": true
+    }
+  ]
+}

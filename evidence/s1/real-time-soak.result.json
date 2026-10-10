@@ -1,0 +1,36 @@
+{
+  "kind": "Real Cocos Creator 3.8.7 Web Mobile runtime; automated scheduling; real 10-minute duration; not human or physical-device play",
+  "startedAt": "2026-10-05T14:41:00.781Z",
+  "completedAt": "2026-10-05T14:51:00.876Z",
+  "counts": "Cumulative test-profile totals, including the previously retained test progress; not new orders in this run",
+  "elapsedMs": 600093.9000000004,
+  "ticks": 1469,
+  "orders": 1822,
+  "done": true,
+  "profiles": [
+    {
+      "id": "s1-core-A_5x4-GUI",
+      "revision": 2944,
+      "orders": 436,
+      "coins": 17440
+    },
+    {
+      "id": "s1-core-A_5x4-DUAL",
+      "revision": 3514,
+      "orders": 475,
+      "coins": 17100
+    },
+    {
+      "id": "s1-core-B_6x5-GUI",
+      "revision": 2944,
+      "orders": 436,
+      "coins": 17440
+    },
+    {
+      "id": "s1-core-B_6x5-DUAL",
+      "revision": 3514,
+      "orders": 475,
+      "coins": 17100
+    }
+  ]
+}

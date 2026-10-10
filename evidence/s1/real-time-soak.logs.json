@@ -1,0 +1,68 @@
+[
+  {
+    "level": "log",
+    "message": "S1_SOAK_STARTED {\"durationMs\":600000,\"profiles\":[\"s1-core-A_5x4-GUI\",\"s1-core-A_5x4-DUAL\",\"s1-core-B_6x5-GUI\",\"s1-core-B_6x5-DUAL\"]}",
+    "timestamp": "2026-10-05T14:41:00.781Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":61374.90000000037,\"ticks\":150,\"orders\":1006,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":1625,\"orders\":241,\"coins\":9620},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":1939,\"orders\":262,\"coins\":9400},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":1625,\"orders\":241,\"coins\":9620},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":1939,\"orders\":262,\"coins\":9400}]}",
+    "timestamp": "2026-10-05T14:42:02.157Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":122677.19999999925,\"ticks\":300,\"orders\":1100,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":1775,\"orders\":263,\"coins\":10510},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":2119,\"orders\":287,\"coins\":10300},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":1775,\"orders\":263,\"coins\":10510},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":2119,\"orders\":287,\"coins\":10300}]}",
+    "timestamp": "2026-10-05T14:43:03.458Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":184008.69999999925,\"ticks\":450,\"orders\":1192,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":1925,\"orders\":285,\"coins\":11380},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":2298,\"orders\":311,\"coins\":11180},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":1925,\"orders\":285,\"coins\":11380},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":2298,\"orders\":311,\"coins\":11180}]}",
+    "timestamp": "2026-10-05T14:44:04.792Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":245243.90000000037,\"ticks\":600,\"orders\":1284,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2075,\"orders\":307,\"coins\":12270},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":2476,\"orders\":335,\"coins\":12060},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2075,\"orders\":307,\"coins\":12270},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":2476,\"orders\":335,\"coins\":12060}]}",
+    "timestamp": "2026-10-05T14:45:06.026Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":306491.9000000004,\"ticks\":750,\"orders\":1378,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2225,\"orders\":330,\"coins\":13190},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":2655,\"orders\":359,\"coins\":12920},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2225,\"orders\":330,\"coins\":13190},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":2655,\"orders\":359,\"coins\":12920}]}",
+    "timestamp": "2026-10-05T14:46:07.273Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":367712.30000000075,\"ticks\":900,\"orders\":1470,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2375,\"orders\":352,\"coins\":14080},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":2834,\"orders\":383,\"coins\":13770},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2375,\"orders\":352,\"coins\":14080},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":2834,\"orders\":383,\"coins\":13770}]}",
+    "timestamp": "2026-10-05T14:47:08.495Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":428992.0999999996,\"ticks\":1050,\"orders\":1564,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2525,\"orders\":374,\"coins\":14950},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":3013,\"orders\":408,\"coins\":14670},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2525,\"orders\":374,\"coins\":14950},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":3013,\"orders\":408,\"coins\":14670}]}",
+    "timestamp": "2026-10-05T14:48:09.775Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":490294.19999999925,\"ticks\":1200,\"orders\":1658,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2675,\"orders\":397,\"coins\":15860},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":3193,\"orders\":432,\"coins\":15520},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2675,\"orders\":397,\"coins\":15860},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":3193,\"orders\":432,\"coins\":15520}]}",
+    "timestamp": "2026-10-05T14:49:11.076Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PROGRESS {\"elapsedMs\":551525.5,\"ticks\":1350,\"orders\":1750,\"done\":false,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2825,\"orders\":419,\"coins\":16750},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":3372,\"orders\":456,\"coins\":16400},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2825,\"orders\":419,\"coins\":16750},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":3372,\"orders\":456,\"coins\":16400}]}",
+    "timestamp": "2026-10-05T14:50:12.307Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  },
+  {
+    "level": "log",
+    "message": "S1_SOAK_PASSED {\"elapsedMs\":600093.9000000004,\"ticks\":1469,\"orders\":1822,\"done\":true,\"profiles\":[{\"id\":\"s1-core-A_5x4-GUI\",\"revision\":2944,\"orders\":436,\"coins\":17440},{\"id\":\"s1-core-A_5x4-DUAL\",\"revision\":3514,\"orders\":475,\"coins\":17100},{\"id\":\"s1-core-B_6x5-GUI\",\"revision\":2944,\"orders\":436,\"coins\":17440},{\"id\":\"s1-core-B_6x5-DUAL\",\"revision\":3514,\"orders\":475,\"coins\":17100}]}",
+    "timestamp": "2026-10-05T14:51:00.876Z",
+    "url": "http://127.0.0.1:7457/assets/main/index.js"
+  }
+]

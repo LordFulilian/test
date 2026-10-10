@@ -1,0 +1,32 @@
+{
+  "name": "香铺谣 S4 棋盘对照开发测试",
+  "s4Testing": true,
+  "contentMaxChapter": 2,
+  "developmentTestClock": true,
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "outputName": "s4-web",
+  "startScene": "51efba8e-0c2f-4c3b-9b20-746af94e078d",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/S4.scene",
+      "uuid": "51efba8e-0c2f-4c3b-9b20-746af94e078d"
+    },
+    {
+      "url": "db://assets/scenes/S1.scene",
+      "uuid": "dc7b9945-3b9e-4d65-ab81-508612d361c1"
+    }
+  ],
+  "debug": true,
+  "sourceMaps": true,
+  "md5Cache": false,
+  "orientation": "portrait",
+  "webDebug": false,
+  "packages": {
+    "web-mobile": {
+      "__version__": "1.0.0",
+      "embedWebDebugger": false,
+      "mainBundleCompressionType": "merge_dep"
+    }
+  }
+}

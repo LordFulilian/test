@@ -1,0 +1,68 @@
+{
+  "source": "User Image artwork and S2 derived shop; built-in image_gen; originals preserved",
+  "assets": [
+    {
+      "name": "garden",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\52a309a3-978d-40a2-8673-e5e45fa1ebc8.png",
+      "prompt": "Adapt the supplied garden artwork into a reusable portrait game backdrop. Keep architecture, moon window, osmanthus tree, stone path, the left osmanthus flower plot and right jasmine plot, water basin and rich painted details. Remove ALL interface, titles, currencies, gear, plot signs and stock bars, harvest buttons, waiting-items card and bottom navigation, filling those areas with appropriate stone path/architecture. No people or text. Same full portrait framing and style. This is a live Cocos backdrop; stock labels and locks will be separate real UI.",
+      "transparent": false,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-77d2d01d-e7c2-444f-aa06-b43c933510d2.png"
+    },
+    {
+      "name": "xiaoman",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Create a standalone waist-up sprite of Xiaoman, the YOUNG WOMAN depicted in the MIDDLE customer portrait card of the provided artwork. Preserve that specific friendly face, hairstyle with ivory blossom accessory, ivory and celadon-green hanfu and painted character style. Hands loosely holding a small cream jasmine sachet at the waist. Single complete figure, centred, full hair and both hands in frame, natural same proportions as the existing Aling character. Real transparent background, no room, badge, labels or other figures. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-162442ca-3fb7-42a0-865a-67570d2a27bc.png"
+    },
+    {
+      "name": "zhoushen",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Create a standalone waist-up sprite of Aunt Zhou, the MATURE WOMAN depicted in the RIGHT customer portrait card of the provided artwork. Preserve her kind mature face, neat dark/grey bun, warm smile and understated period clothing. Ivory blouse with muted blue-green and warm earth accents, holding a small square floral gift box. Single complete figure, centred, full hair and both hands visible, natural same character proportions as Aling and Xiaoman. Real transparent background, no room, badge, labels or other figures. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-f32fddab-dc54-4e18-8ca9-31fd03c60247.png"
+    },
+    {
+      "name": "counter-apricot",
+      "reference": "D:\\The Perfume Shop Ballad\\assets\\resources\\s2\\shop.png",
+      "prompt": "Create a transparent decoration OVERLAY for the supplied portrait game room. Extract only the LARGE MAIN L-shaped display counter in the middle/lower-left: its entire counter top, front wooden cabinet panels, attached celadon textile runner, drawers and small countertop incense displays. Keep its EXACT original perspective, PIXEL PLACEMENT and SIZE within the SAME full portrait canvas; everything outside that counter must be truly transparent. Upgrade this counter to a brighter warm apricot-honey wood style, carved botanical borders, a cream embroidered runner and tasteful golden gift displays. Do not move, zoom, crop or recenter the counter. Do not include any floor, shelves behind, doorway, windows, plants, people, lanterns or curtains. No UI or text. Full portrait transparent canvas aligned identically to the input room, NOT a centred catalog object. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-19a6ee59-49d2-4579-8838-d611e1ddb6d3.png"
+    },
+    {
+      "name": "counter-celadon",
+      "reference": "D:\\The Perfume Shop Ballad\\assets\\resources\\s2\\shop.png",
+      "prompt": "Create a transparent decoration OVERLAY for the supplied portrait game room. Extract only the LARGE MAIN L-shaped display counter in the middle/lower-left: its entire counter top, front wooden cabinet panels, attached textile runner, drawers and small countertop incense displays. Keep its EXACT original perspective, PIXEL PLACEMENT and SIZE within the SAME full portrait canvas; everything outside the counter must be truly transparent. Upgrade this counter to a distinct celadon-green lacquer style with warm timber edges, fine pale botanical decoration, an elegant green embroidered runner and coordinated ivory porcelain scent jars. Do not move, zoom, crop or recenter it. Do not include floor, shelves behind, doorway, windows, plants, people, lanterns or curtains. No UI or text. Full portrait transparent canvas aligned identically to the input room, NOT a centred catalog object. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-187d38c5-e3eb-4ea7-8170-9d2b3f3b5c6a.png"
+    },
+    {
+      "name": "JAS_1",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Extract/recreate ONLY the first jasmine level-one CREAM fabric sachet shown in the lower rows, plain gathered ivory linen, simple green neck tie, sparse jasmine embroidery as one centred isolated Cocos game item on a square canvas with real transparent margins. Match the existing golden osmanthus sprites in polish, painted texture and relative scale. Remove all background, panels, other items, labels and numerical level badges. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-a2a6e185-ca1a-48d2-8027-04f3637e9d1e.png"
+    },
+    {
+      "name": "JAS_2",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Extract/recreate ONLY the jasmine level-two CREAM embroidered sachet shown in the lower rows, fuller botanical embroidery, prominent white blossom on green ribbon bow and small green tassel as one centred isolated Cocos game item on a square canvas with real transparent margins. Match the existing golden osmanthus sprites in polish, painted texture and relative scale. Remove all background, panels, other items, labels and numerical level badges. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-7173004f-9c0f-4a9a-a051-4b23d50587a2.png"
+    },
+    {
+      "name": "JAS_3",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Extract/recreate ONLY the jasmine level-three satin sachet shown in the lower rows, rich cream satin, several white jasmine blossoms, ornate green-and-gold braided cords and long green tassels as one centred isolated Cocos game item on a square canvas with real transparent margins. Match the existing golden osmanthus sprites in polish, painted texture and relative scale. Remove all background, panels, other items, labels and numerical level badges. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-2112c3c7-4ddb-4064-ad07-c158dfeeca18.png"
+    },
+    {
+      "name": "JAS_4",
+      "reference": "D:\\The Perfume Shop Ballad\\Image\\be722299-82ea-4d3f-ad9a-98126beb3b7a.png",
+      "prompt": "Extract/recreate ONLY the WHITE JASMINE rigid gift box at the far RIGHT of the TOP board row, distinct square ivory lid, dark green jasmine branches and warm gold clasp; this level four must be a BOX, not a cloth bag as one centred isolated Cocos game item on a square canvas with real transparent margins. Match the existing golden osmanthus sprites in polish, painted texture and relative scale. Remove all background, panels, other items, labels and numerical level badges. Preserve the supplied refined warm Chinese game painting: delicate brown contours, softly painted ivory, honey wood and celadon greens, botanical motifs, clean silhouettes. No UI, labels, numbers, watermark, frames, or other unrelated objects.",
+      "transparent": true,
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-f3ca6061-b9a4-48b0-8328-29a32977fd24.png"
+    }
+  ]
+}

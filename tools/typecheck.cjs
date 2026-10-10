@@ -1,0 +1,12 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const ts = require('C:/ProgramData/cocos/editors/Creator/3.8.7/resources/app.asar.unpacked/node_modules/typescript');
+const root = path.resolve(__dirname, '..');
+if (!fs.existsSync(path.join(root, 'temp/tsconfig.cocos.json'))) throw new Error('Open or build the project with Creator first to generate the real engine types.');
+const config = ts.readConfigFile(path.join(root, 'tsconfig.json'), ts.sys.readFile);
+const parsed = ts.parseJsonConfigFileContent(config.config, ts.sys, root);
+const program = ts.createProgram(parsed.fileNames, parsed.options);
+const diagnostics = ts.getPreEmitDiagnostics(program);
+for (const diagnostic of diagnostics) console.log(ts.formatDiagnosticsWithColorAndContext([diagnostic], { getCanonicalFileName: f => f, getCurrentDirectory: () => root, getNewLine: () => '\n' }));
+console.log(`Cocos engine TypeScript check: ${diagnostics.length} errors`);
+process.exitCode = diagnostics.length ? 1 : 0;

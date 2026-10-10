@@ -1,0 +1,449 @@
+{
+  "kind": "S2 core transaction tests; no physical-device claims",
+  "passed": 64,
+  "total": 64,
+  "records": [
+    {
+      "name": "A_5x4: true new save and tutorial restrictions",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: six-order free chapter route, exactly 160 coins",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: late decorating completes without another order",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: preview locked/unowned, cancel, slot switch, reopen, hide",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: ownership, free switching, idempotency and permanent nodes",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: chapters cannot be completed by consignment",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: chapter order exact SKU, stable IDs and duplicate guard",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: T0 interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: T0 interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: T0 interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: T0 interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C1a interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C1a interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C1a interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C1a interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: lantern interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: lantern interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: lantern interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: lantern interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: curtain interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: curtain interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: curtain interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: curtain interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: switch interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: switch interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: switch interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: switch interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: completion interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: completion interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: completion interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: completion interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: true new save and tutorial restrictions",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: six-order free chapter route, exactly 160 coins",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: late decorating completes without another order",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: preview locked/unowned, cancel, slot switch, reopen, hide",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: ownership, free switching, idempotency and permanent nodes",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: chapters cannot be completed by consignment",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: chapter order exact SKU, stable IDs and duplicate guard",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: T0 interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: T0 interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: T0 interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: T0 interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C1a interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C1a interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C1a interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C1a interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: lantern interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: lantern interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: lantern interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: lantern interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: curtain interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: curtain interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: curtain interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: curtain interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: switch interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: switch interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: switch interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: switch interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: completion interrupted before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: completion interrupted during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: completion interrupted after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: completion interrupted before-feedback",
+      "passed": true
+    },
+    {
+      "name": "quota/read failures suspend; late acknowledgement never charges twice",
+      "passed": true
+    },
+    {
+      "name": "unknown/malformed story saves stay preserved; S1 test namespace isolated",
+      "passed": true
+    }
+  ],
+  "routes": [
+    {
+      "preset": "A_5x4",
+      "points": [
+        {
+          "label": "T0 +40",
+          "coins": 40,
+          "orders": 1,
+          "nodes": [
+            "1A"
+          ]
+        },
+        {
+          "label": "lantern -40",
+          "coins": 0,
+          "orders": 1,
+          "nodes": [
+            "1A",
+            "1B"
+          ]
+        },
+        {
+          "label": "C1a +120",
+          "coins": 120,
+          "orders": 2,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a"
+          ]
+        },
+        {
+          "label": "S0 +20",
+          "coins": 140,
+          "orders": 3,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C"
+          ]
+        },
+        {
+          "label": "curtain -120",
+          "coins": 20,
+          "orders": 3,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S1 +50",
+          "coins": 70,
+          "orders": 4,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S2 +40",
+          "coins": 110,
+          "orders": 5,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S3 +50",
+          "coins": 160,
+          "orders": 6,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used",
+            "1D"
+          ]
+        }
+      ]
+    },
+    {
+      "preset": "B_6x5",
+      "points": [
+        {
+          "label": "T0 +40",
+          "coins": 40,
+          "orders": 1,
+          "nodes": [
+            "1A"
+          ]
+        },
+        {
+          "label": "lantern -40",
+          "coins": 0,
+          "orders": 1,
+          "nodes": [
+            "1A",
+            "1B"
+          ]
+        },
+        {
+          "label": "C1a +120",
+          "coins": 120,
+          "orders": 2,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a"
+          ]
+        },
+        {
+          "label": "S0 +20",
+          "coins": 140,
+          "orders": 3,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C"
+          ]
+        },
+        {
+          "label": "curtain -120",
+          "coins": 20,
+          "orders": 3,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S1 +50",
+          "coins": 70,
+          "orders": 4,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S2 +40",
+          "coins": 110,
+          "orders": 5,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used"
+          ]
+        },
+        {
+          "label": "S3 +50",
+          "coins": 160,
+          "orders": 6,
+          "nodes": [
+            "1A",
+            "1B",
+            "C1a",
+            "1C",
+            "curtain-used",
+            "1D"
+          ]
+        }
+      ]
+    }
+  ]
+}

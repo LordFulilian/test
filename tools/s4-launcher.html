@@ -1,0 +1,43 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>香铺谣 S4 棋盘对照测试</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f4eddf;color:#453b2b;font:16px/1.5 system-ui}main{display:flex;gap:20px;padding:16px;align-items:flex-start;flex-wrap:wrap}aside{width:380px;max-width:100%}h1{font-size:22px;margin:0 0 8px}label{display:block;margin:8px 0}input,select,textarea,button{font:inherit}input,select,textarea{width:100%;padding:8px;border:1px solid #b9ab91;border-radius:6px}button,a.button{display:inline-block;min-height:48px;padding:10px 14px;margin:4px 0;background:#46785e;color:white;border:0;border-radius:6px;cursor:pointer}button:disabled{opacity:.5;cursor:default}p{margin:8px 0}.muted{font-size:13px;color:#726750}.controls{display:flex;gap:6px;flex-wrap:wrap}.stage{overflow:auto;max-width:100%;border:1px solid #b9ab91;background:#d7c9b1}iframe{display:block;border:0;width:360px;height:640px}pre{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;max-height:260px;overflow:auto;background:#fff8eb;padding:10px}.record{width:380px;max-width:100%}details{margin:10px 0}.danger{background:#77503c}#summary{padding:12px;background:#fff8eb;border-radius:8px}@media(max-width:600px){main{padding:0;gap:8px}aside,.record{padding:10px}.stage{border:0}iframe{width:100vw!important;height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom))!important}.stage.device{padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}}</style></head>
+<body><main><aside><h1>香铺谣 · S4 对照测试</h1><p>阶段状态：<strong>待真机与玩家实测</strong></p><p class="muted">本页管理测试，游戏由 Cocos Web Mobile 构建运行。设备型号为手工登记信息，不能自动证明真机或抖音验收。</p>
+<form id="setup"><label>匿名玩家编号<input id="participant" value="P01" required pattern="[a-zA-Z0-9_-]+" maxlength="24"></label>
+<label>顺序<select id="order"><option>AB</option><option>BA</option></select></label>
+<label>棋盘配置<select id="preset"><option value="A">A · 20格（5×4）</option><option value="B">B · 30格（6×5）</option></select></label>
+<label>内容场景<select id="scenario"><option value="chapter1">第一章 · 新档</option><option value="chapter2">第二章 · 同样的160铜钱进度</option><option value="pressure">奖励堆积 · 18件棋盘 / 待领30 / 两地块各16</option></select></label>
+<label>测试轮次<input id="round" value="1" required pattern="[a-zA-Z0-9_-]+" maxlength="16"></label>
+<label>证据层<select id="environment"><option value="browser">浏览器模拟</option><option value="device">真机待观察员核实</option></select></label>
+<label>设备平台<select id="platform"><option value="desktop">桌面</option><option value="Android">Android</option><option value="iOS">iPhone / iOS</option></select></label><label>机型<input id="model" value="桌面浏览器" maxlength="80"></label><label>系统版本<input id="os" value="Windows" maxlength="80"></label><label>运行宿主<input id="host" value="Cocos Web Mobile 浏览器" maxlength="80"></label>
+<label>浏览器模拟尺寸<select id="viewport"><option value="360x640">360×640</option><option value="360x780">360×780</option><option value="390x844">390×844</option></select></label>
+<button type="submit">载入独立测试档</button><p class="muted">同编号、场景、轮次会恢复进度。每次对比使用新轮次；不清除或降容任何旧档。</p></form>
+<div class="controls"><button id="start" disabled>开始 / 继续计时</button><button id="pause" disabled>暂停</button><button id="finish" disabled>结束并保留记录</button></div>
+<p id="summary">先载入测试档。自然游玩每版10分钟，后台自动暂停；压力场景单独记录。</p>
+<details><summary>运行步骤</summary><ol><li>约10位玩家，P01—P05先A后B；P06—P10先B后A。</li><li>每版各10分钟自然经营。记录第一章/第二章；压力场景另开测试，不并入自然整理次数。</li><li>至少2台不同尺寸/性能Android和1台iPhone分别覆盖A/B三个场景；记录截图或录像文件名。</li><li>每个拖拽由观察员按ID确认正常、误拖或主动试探；不能把所有取消直接当作误拖。</li><li>计时结束后导出JSON，补全实际设备、布局、数据恢复与偏好观察。换新轮次再比较。</li></ol></details></aside>
+<div class="stage" id="stage"><iframe id="game" title="香铺谣 Cocos 实际测试游戏"></iframe></div>
+<section class="record"><h2>观察员记录</h2><label>拖拽事件ID<input id="dragId" type="number" min="1" value="1"></label><label>人工分类<select id="review"><option value="intended">符合预期</option><option value="unexpected">确认非预期落点</option><option value="probe">主动试探</option></select></label><button id="reviewButton" disabled>记录该拖拽</button>
+<label>更愿意继续经营哪版<select id="preference"><option value="">尚未选择</option><option value="A">A · 20格</option><option value="B">B · 30格</option></select></label><label>偏好原因<textarea id="reason" rows="2"></textarea></label>
+<label>真实设备证据（截图/录像文件名）<input id="evidence"></label>
+<label><input id="verified" type="checkbox" style="width:auto"> 观察员已核实在登记的真实设备上运行</label>
+<label>观察结果<select id="safety"><option value="pending">未观察</option><option value="pass">无丢物/重复奖励/强制广告；格子可辨识、目标可见、胶囊/手势区无遮挡</option><option value="fail">有失败项，见备注</option></select></label>
+<label>备注与失败项<textarea id="notes" rows="3"></textarea></label><button id="export" disabled>导出本次JSON</button><button id="history">读取本页导出备份</button><a id="download" hidden>下载JSON</a>
+<details open><summary>最新指标与导出预览</summary><pre id="report">尚未执行</pre></details><details><summary>本页导出备份（只保存在本机）</summary><pre id="historyText">尚无记录</pre></details>
+</section></main><script>
+const $=id=>document.getElementById(id),fixed=__S4_FIXED_PRESET__,game=$('game');let report=null,blobUrl=null;
+if(fixed){$('preset').value=fixed;$('preset').disabled=true;}
+const send=data=>game.contentWindow?.postMessage(data,location.origin);
+$('setup').onsubmit=e=>{e.preventDefault();const q=new URLSearchParams();for(const key of ['participant','order','preset','scenario','round','environment','platform','model','os','host'])q.set(key,$(key).value);q.set('s4test','1');
+ const [w,h]=$('viewport').value.split('x');game.style.width=w+'px';game.style.height=h+'px';$('stage').classList.toggle('device',$('environment').value==='device');
+ report=null;$('report').textContent='加载 Cocos 构建…';$('summary').textContent='加载后再开始计时。';for(const key of ['start','pause','finish','reviewButton','export'])$(key).disabled=true;
+ game.src='play.html?'+q;};
+window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==game.contentWindow||e.data?.type!=='s4-report')return;report=e.data.report;
+ for(const key of ['pause','finish','reviewButton','export'])$(key).disabled=!report.ready;$('start').disabled=!report.ready||report.finished;
+ const seconds=Math.floor(report.effectiveMs/1000);$('summary').textContent=`${report.identity.environment==='browser'?'浏览器模拟':'真机信息待核实'} · ${report.preset} · ${report.recording?'计时中':report.finished?'已结束':'暂停/未开始'} ${seconds}/600秒 · 本次交单${report.orders} · 满盘${report.fullEvents} · 整理${report.cleaning} · 未复核拖拽${report.unreviewed} · 最小格子${report.boardCellLogicalPx.toFixed(1)}逻辑像素`;
+ $('report').textContent=JSON.stringify(report,null,2);});
+$('start').onclick=()=>send({type:'s4-start'});$('pause').onclick=()=>send({type:'s4-pause'});$('finish').onclick=()=>send({type:'s4-finish'});
+$('reviewButton').onclick=()=>send({type:'s4-review',id:Number($('dragId').value),review:$('review').value});
+$('export').onclick=()=>{if(!report)return;const output={...report,observation:{deviceVerified:$('verified').checked&&report.identity.environment==='device'&&!!$('evidence').value,safety:$('safety').value,evidence:$('evidence').value,notes:$('notes').value},preference:{choice:$('preference').value,reason:$('reason').value},exportedAt:new Date().toISOString()};
+ const key='s4-export-'+report.profile+'-'+Date.now();try{localStorage.setItem(key,JSON.stringify(output));}catch(e){$('notes').value+='\n本机导出备份失败：'+e.message;}
+ $('report').textContent=JSON.stringify(output,null,2);if(blobUrl)URL.revokeObjectURL(blobUrl);blobUrl=URL.createObjectURL(new Blob([JSON.stringify(output,null,2)],{type:'application/json'}));
+ $('download').href=blobUrl;$('download').download=report.profile+'.json';$('download').hidden=false;$('download').textContent='下载 '+report.profile+'.json';$('download').click();};
+$('history').onclick=()=>{const rows=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k.startsWith('s4-export-'))rows.push(JSON.parse(localStorage.getItem(k)));}$('historyText').textContent=JSON.stringify(rows,null,2);};
+</script></body></html>

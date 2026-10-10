@@ -1,0 +1,631 @@
+{
+  "kind": "S3 actual core tests; injected UTC/monotonic test clock, not live backend/device evidence",
+  "passed": 93,
+  "total": 93,
+  "records": [
+    {
+      "name": "A_5x4: new save -> both chapters without ads; S/M remain live",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2a/C2b duplicate IDs and consignment cannot advance chapter",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: chapter-1 unfinished GUI_3 retained; new short index zero",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: legacy S2 upgrade preserves wallet/board/ownership/order and grants teaching once",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: unavailable time stores unlock intent; first anchor grants two only once",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: 20 waiting + 16 garden => 30 waiting + 6 garden, replay guarded",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: 22 waiting + 8 reserved retains all garden stock",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: two plots 32 items respect shared 30 capacity",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: FIFO partial receive; full board/repeated request preserve conservation",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: source reward requires full capacity; duplicates and midnight never clear queue",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2a interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2a interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2a interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2a interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: counter interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: counter interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: counter interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: counter interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2b interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2b interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2b interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: C2b interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: settle interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: settle interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: settle interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: settle interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: harvest interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: harvest interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: harvest interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: harvest interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: receive interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: receive interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: receive interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: receive interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: upgrade interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: upgrade interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: upgrade interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: upgrade interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: new save -> both chapters without ads; S/M remain live",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2a/C2b duplicate IDs and consignment cannot advance chapter",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: chapter-1 unfinished GUI_3 retained; new short index zero",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: legacy S2 upgrade preserves wallet/board/ownership/order and grants teaching once",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: unavailable time stores unlock intent; first anchor grants two only once",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: 20 waiting + 16 garden => 30 waiting + 6 garden, replay guarded",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: 22 waiting + 8 reserved retains all garden stock",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: two plots 32 items respect shared 30 capacity",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: FIFO partial receive; full board/repeated request preserve conservation",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: source reward requires full capacity; duplicates and midnight never clear queue",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2a interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2a interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2a interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2a interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: counter interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: counter interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: counter interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: counter interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2b interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2b interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2b interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: C2b interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: settle interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: settle interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: settle interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: settle interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: harvest interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: harvest interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: harvest interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: harvest interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: receive interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: receive interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: receive interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: receive interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: upgrade interruption before-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: upgrade interruption during-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: upgrade interruption after-write",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: upgrade interruption before-feedback",
+      "passed": true
+    },
+    {
+      "name": "offline: empty 29m59s",
+      "passed": true
+    },
+    {
+      "name": "offline: empty 30m",
+      "passed": true
+    },
+    {
+      "name": "offline: two +10m then25m",
+      "passed": true
+    },
+    {
+      "name": "offline: empty offline8h",
+      "passed": true
+    },
+    {
+      "name": "offline: empty offline25h",
+      "passed": true
+    },
+    {
+      "name": "offline: 15 +20m then20m",
+      "passed": true
+    },
+    {
+      "name": "offline: full then4h",
+      "passed": true
+    },
+    {
+      "name": "offline: Shanghai23:50 to00:20",
+      "passed": true
+    },
+    {
+      "name": "offline: backwards time",
+      "passed": true
+    },
+    {
+      "name": "offline: 120 minute settlements equal one 2h settlement",
+      "passed": true
+    },
+    {
+      "name": "offline: cap skips excess; full storage never hides backlog after harvest",
+      "passed": true
+    },
+    {
+      "name": "time: Shanghai day independent of device timezone",
+      "passed": true
+    },
+    {
+      "name": "time: backwards clock keeps anchor, basic commerce remains available",
+      "passed": true
+    },
+    {
+      "name": "storage: mixed valid/future slot protected at load AND direct cached commit",
+      "passed": true
+    },
+    {
+      "name": "storage: unmigratable header retained; old cached revision cannot overwrite newer confirmed state",
+      "passed": true
+    },
+    {
+      "name": "migration: constructor quota failure pauses without replacing S2 bytes; retry upgrades once",
+      "passed": true
+    },
+    {
+      "name": "invariants: over-capacity queue, duplicate pending IDs, missing teaching ledger rejected",
+      "passed": true
+    }
+  ],
+  "routes": [
+    {
+      "preset": "A_5x4",
+      "coins": 1100,
+      "orders": 18,
+      "points": [
+        {
+          "id": "M-0",
+          "coins": 500,
+          "orders": 10
+        },
+        {
+          "id": "S-DUAL-0",
+          "coins": 520,
+          "orders": 11
+        },
+        {
+          "id": "M-1",
+          "coins": 640,
+          "orders": 12
+        },
+        {
+          "id": "S-DUAL-1",
+          "coins": 660,
+          "orders": 13
+        },
+        {
+          "id": "M-2",
+          "coins": 760,
+          "orders": 14
+        },
+        {
+          "id": "S-DUAL-2",
+          "coins": 810,
+          "orders": 15
+        },
+        {
+          "id": "M-3",
+          "coins": 930,
+          "orders": 16
+        },
+        {
+          "id": "S-DUAL-3",
+          "coins": 980,
+          "orders": 17
+        },
+        {
+          "id": "M-4",
+          "coins": 1100,
+          "orders": 18
+        }
+      ]
+    },
+    {
+      "preset": "B_6x5",
+      "coins": 1100,
+      "orders": 18,
+      "points": [
+        {
+          "id": "M-0",
+          "coins": 500,
+          "orders": 10
+        },
+        {
+          "id": "S-DUAL-0",
+          "coins": 520,
+          "orders": 11
+        },
+        {
+          "id": "M-1",
+          "coins": 640,
+          "orders": 12
+        },
+        {
+          "id": "S-DUAL-1",
+          "coins": 660,
+          "orders": 13
+        },
+        {
+          "id": "M-2",
+          "coins": 760,
+          "orders": 14
+        },
+        {
+          "id": "S-DUAL-2",
+          "coins": 810,
+          "orders": 15
+        },
+        {
+          "id": "M-3",
+          "coins": 930,
+          "orders": 16
+        },
+        {
+          "id": "S-DUAL-3",
+          "coins": 980,
+          "orders": 17
+        },
+        {
+          "id": "M-4",
+          "coins": 1100,
+          "orders": 18
+        }
+      ]
+    }
+  ],
+  "offline": [
+    {
+      "name": "empty 29m59s",
+      "input": {
+        "stock": 0,
+        "carry": 0,
+        "elapsed": 1799000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791476399000,
+        "storedCount": 0,
+        "carryMs": 1799000
+      }
+    },
+    {
+      "name": "empty 30m",
+      "input": {
+        "stock": 0,
+        "carry": 0,
+        "elapsed": 1800000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791476400000,
+        "storedCount": 1,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "two +10m then25m",
+      "input": {
+        "stock": 2,
+        "carry": 600000,
+        "elapsed": 1500000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791476100000,
+        "storedCount": 3,
+        "carryMs": 300000
+      }
+    },
+    {
+      "name": "empty offline8h",
+      "input": {
+        "stock": 0,
+        "carry": 0,
+        "elapsed": 28800000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791503400000,
+        "storedCount": 16,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "empty offline25h",
+      "input": {
+        "stock": 0,
+        "carry": 0,
+        "elapsed": 90000000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791564600000,
+        "storedCount": 16,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "15 +20m then20m",
+      "input": {
+        "stock": 15,
+        "carry": 1200000,
+        "elapsed": 1200000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791475800000,
+        "storedCount": 16,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "full then4h",
+      "input": {
+        "stock": 16,
+        "carry": 0,
+        "elapsed": 14400000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791489000000,
+        "storedCount": 16,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "Shanghai23:50 to00:20",
+      "input": {
+        "stock": 0,
+        "carry": 0,
+        "elapsed": 1800000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791476400000,
+        "storedCount": 1,
+        "carryMs": 0
+      }
+    },
+    {
+      "name": "backwards time",
+      "input": {
+        "stock": 2,
+        "carry": 600000,
+        "elapsed": -60000
+      },
+      "result": {
+        "id": "GUI",
+        "sku": "GUI_2",
+        "initialized": true,
+        "lastSettledAtMs": 1791474600000,
+        "storedCount": 2,
+        "carryMs": 600000
+      }
+    }
+  ]
+}

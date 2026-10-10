@@ -1,0 +1,271 @@
+{
+  "kind": "Node core tests; 600 seconds are simulated, not human play",
+  "passed": 66,
+  "total": 66,
+  "records": [
+    {
+      "name": "A_5x4: deterministic spawn / row-major / 350ms / immediate restart",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: move / merge / swap / max / off-board / stale entity",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: full board free exit / no cooldown consumed / full highlights",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: S cycle and row-major exact SKU consumption",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: missing order selects scent / cannot split higher SKU",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: all sale prices / duplicate confirmation / no order credit",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: spawn interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: merge interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: move interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: swap interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: sell interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: order interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: spawn interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: merge interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: move interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: swap interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: sell interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: order interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: spawn interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: merge interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: move interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: swap interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: sell interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: order interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: spawn interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: merge interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: move interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: swap interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: sell interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "A_5x4: order interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: deterministic spawn / row-major / 350ms / immediate restart",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: move / merge / swap / max / off-board / stale entity",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: full board free exit / no cooldown consumed / full highlights",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: S cycle and row-major exact SKU consumption",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: missing order selects scent / cannot split higher SKU",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: all sale prices / duplicate confirmation / no order credit",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: spawn interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: merge interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: move interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: swap interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: sell interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: order interruption at before-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: spawn interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: merge interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: move interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: swap interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: sell interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: order interruption at during-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: spawn interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: merge interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: move interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: swap interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: sell interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: order interruption at after-write restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: spawn interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: merge interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: move interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: swap interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: sell interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "B_6x5: order interruption at before-feedback restores a whole transaction",
+      "passed": true
+    },
+    {
+      "name": "profiles: A/B and single/dual remain isolated without truncation",
+      "passed": true
+    },
+    {
+      "name": "storage: quota failure keeps prior state; late write acknowledgement never double pays",
+      "passed": true
+    },
+    {
+      "name": "storage: unreadable results block new commands and retry restores",
+      "passed": true
+    },
+    {
+      "name": "storage: corrupt / checksum mismatch / unknown schema retained without overwriting",
+      "passed": true
+    },
+    {
+      "name": "invariants: duplicate item ids / invalid values / shrinking profile rejected",
+      "passed": true
+    },
+    {
+      "name": "600-second deterministic economic simulation / both presets / both chains / reopen every 10 orders",
+      "passed": true
+    }
+  ]
+}

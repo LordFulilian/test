@@ -1,0 +1,12 @@
+{
+  "source": "actual core commands plus explicit pressure board seed",
+  "epoch": 1791417600000,
+  "parity": true,
+  "scenarios": [
+    "chapter1",
+    "chapter2",
+    "pressure"
+  ],
+  "initialOccupied": 18,
+  "productionBoardPreset": null
+}

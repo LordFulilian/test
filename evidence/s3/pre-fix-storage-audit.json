@@ -1,0 +1,10 @@
+{
+  "kind": "Pre-fix live core audit, no player data used",
+  "loaded": true,
+  "spawn": {
+    "ok": true,
+    "effect": "spawn",
+    "target": 2
+  },
+  "unknownSlotPreserved": false
+}

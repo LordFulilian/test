@@ -1,0 +1,354 @@
+{
+  "schema": "s4-research-1",
+  "identity": {
+    "participant": "Delivery",
+    "order": "AB",
+    "scenario": "pressure",
+    "round": "3",
+    "environment": "browser",
+    "platform": "desktop",
+    "model": "桌面浏览器",
+    "os": "Windows",
+    "host": "Cocos Web Mobile 浏览器"
+  },
+  "preset": "A_5x4",
+  "profile": "s4-test-A_5x4-Delivery-pressure-3",
+  "effectiveMs": 9812.600000000093,
+  "finished": true,
+  "completeTenMinutes": false,
+  "baselineOrders": 18,
+  "orders": 0,
+  "fullEvents": 1,
+  "cleaning": 0,
+  "occupiedP95": 1,
+  "dragCount": 0,
+  "probes": 0,
+  "unreviewed": 0,
+  "misdragRate": null,
+  "milestones": {},
+  "frameCount": 589,
+  "frameP95Ms": 17,
+  "frameP95Capped": false,
+  "longFrames": 0,
+  "samples": [
+    {
+      "ms": 0,
+      "revision": 1,
+      "empty": 2,
+      "occupied": 0.9
+    },
+    {
+      "ms": 9399.30000000028,
+      "revision": 2,
+      "empty": 0,
+      "occupied": 1
+    }
+  ],
+  "drags": [],
+  "events": [
+    {
+      "ms": 9399.30000000028,
+      "type": "transaction",
+      "detail": "receive"
+    },
+    {
+      "ms": 9428.700000000186,
+      "type": "full",
+      "detail": "184:GUI_2,185:JAS_2,186:GUI_2,187:JAS_2,188:GUI_2,189:JAS_2,190:GUI_2,191:JAS_2,192:GUI_2,193:JAS_2,194:GUI_2,195:JAS_2,196:GUI_2,197:JAS_2,198:GUI_2,199:JAS_2,200:GUI_2,201:JAS_2,202:GUI_2,203:GUI_2"
+    }
+  ],
+  "ready": true,
+  "recording": false,
+  "viewport": {
+    "width": 360,
+    "height": 640,
+    "dpr": 1
+  },
+  "viewportChanged": false,
+  "initialContentValid": true,
+  "outsideTimedChanges": 0,
+  "runValid": true,
+  "boardCellLogicalPx": 60.5,
+  "buttons": [
+    {
+      "path": "Shop/GoalCard/Work",
+      "active": false,
+      "width": 75,
+      "height": 48
+    },
+    {
+      "path": "Work/Order0/Deliver",
+      "active": false,
+      "width": 92,
+      "height": 48
+    },
+    {
+      "path": "Work/Order1/Deliver",
+      "active": false,
+      "width": 92,
+      "height": 48
+    },
+    {
+      "path": "Work/Order2/Deliver",
+      "active": false,
+      "width": 92,
+      "height": 48
+    },
+    {
+      "path": "Controls/Gui",
+      "active": false,
+      "width": 51,
+      "height": 48
+    },
+    {
+      "path": "Controls/Jas",
+      "active": false,
+      "width": 53,
+      "height": 48
+    },
+    {
+      "path": "Controls/Spawn",
+      "active": false,
+      "width": 123,
+      "height": 48
+    },
+    {
+      "path": "Controls/Clean",
+      "active": false,
+      "width": 53,
+      "height": 48
+    },
+    {
+      "path": "Nav/Shop",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Work",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Garden",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Decor",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Album",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "QuickPending",
+      "active": false,
+      "width": 328,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/LanternTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/CurtainTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/CounterTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/Use",
+      "active": false,
+      "width": 149,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/Cancel",
+      "active": false,
+      "width": 124,
+      "height": 48
+    },
+    {
+      "path": "Garden/GUI/Harvest",
+      "active": false,
+      "width": 137,
+      "height": 48
+    },
+    {
+      "path": "Garden/JAS/Harvest",
+      "active": false,
+      "width": 137,
+      "height": 48
+    },
+    {
+      "path": "Garden/Plus30",
+      "active": false,
+      "width": 105,
+      "height": 48
+    },
+    {
+      "path": "Garden/Plus8",
+      "active": false,
+      "width": 104,
+      "height": 48
+    },
+    {
+      "path": "Garden/Offline",
+      "active": false,
+      "width": 105,
+      "height": 48
+    },
+    {
+      "path": "Pending/ReceiveAll",
+      "active": true,
+      "width": 309,
+      "height": 48
+    },
+    {
+      "path": "Pending/Prev",
+      "active": true,
+      "width": 87,
+      "height": 48
+    },
+    {
+      "path": "Pending/Next",
+      "active": true,
+      "width": 87,
+      "height": 48
+    },
+    {
+      "path": "Modal/Panel/Confirm",
+      "active": false,
+      "width": 126,
+      "height": 48
+    },
+    {
+      "path": "Modal/Panel/Cancel",
+      "active": false,
+      "width": 109,
+      "height": 48
+    },
+    {
+      "path": "Pending/Row0",
+      "active": true,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row1",
+      "active": true,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row2",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row3",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row4",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row5",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Album/Item0",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item1",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item2",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item3",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item4",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item5",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item6",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item7",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Decor/Panel/Card0",
+      "active": false,
+      "width": 98,
+      "height": 108
+    },
+    {
+      "path": "Decor/Panel/Card1",
+      "active": false,
+      "width": 98,
+      "height": 108
+    },
+    {
+      "path": "Decor/Panel/Card2",
+      "active": false,
+      "width": 98,
+      "height": 108
+    }
+  ],
+  "layoutPreflight": [],
+  "deviceVerified": false,
+  "visualAndSafetyObservation": "pending",
+  "productionBoardPreset": null
+}

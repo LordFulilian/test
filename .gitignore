@@ -1,0 +1,15 @@
+node_modules/
+library/
+temp/
+local/
+profiles/
+build/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+settings/v2/packages/information.json

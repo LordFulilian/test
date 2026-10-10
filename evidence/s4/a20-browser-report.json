@@ -1,0 +1,330 @@
+{
+  "schema": "s4-research-1",
+  "identity": {
+    "participant": "Delivery",
+    "order": "AB",
+    "scenario": "chapter1",
+    "round": "3",
+    "environment": "browser",
+    "platform": "desktop",
+    "model": "桌面浏览器",
+    "os": "Windows",
+    "host": "Cocos Web Mobile 浏览器"
+  },
+  "preset": "A_5x4",
+  "profile": "s4-test-A_5x4-Delivery-chapter1-3",
+  "effectiveMs": 0,
+  "finished": false,
+  "completeTenMinutes": false,
+  "baselineOrders": 0,
+  "orders": 0,
+  "fullEvents": 0,
+  "cleaning": 0,
+  "occupiedP95": null,
+  "dragCount": 0,
+  "probes": 0,
+  "unreviewed": 0,
+  "misdragRate": null,
+  "milestones": {},
+  "frameCount": 0,
+  "frameP95Ms": null,
+  "frameP95Capped": false,
+  "longFrames": 0,
+  "samples": [],
+  "drags": [],
+  "events": [],
+  "ready": true,
+  "recording": false,
+  "viewport": {
+    "width": 360,
+    "height": 640,
+    "dpr": 1
+  },
+  "viewportChanged": false,
+  "initialContentValid": true,
+  "outsideTimedChanges": 0,
+  "runValid": true,
+  "boardCellLogicalPx": 60.5,
+  "buttons": [
+    {
+      "path": "Shop/GoalCard/Work",
+      "active": false,
+      "width": 75,
+      "height": 48
+    },
+    {
+      "path": "Work/Order0/Deliver",
+      "active": true,
+      "width": 134,
+      "height": 48
+    },
+    {
+      "path": "Work/Order1/Deliver",
+      "active": false,
+      "width": 134,
+      "height": 48
+    },
+    {
+      "path": "Work/Order2/Deliver",
+      "active": false,
+      "width": 134,
+      "height": 48
+    },
+    {
+      "path": "Controls/Gui",
+      "active": true,
+      "width": 51,
+      "height": 48
+    },
+    {
+      "path": "Controls/Jas",
+      "active": false,
+      "width": 53,
+      "height": 48
+    },
+    {
+      "path": "Controls/Spawn",
+      "active": true,
+      "width": 123,
+      "height": 48
+    },
+    {
+      "path": "Controls/Clean",
+      "active": true,
+      "width": 53,
+      "height": 48
+    },
+    {
+      "path": "Nav/Shop",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Work",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Garden",
+      "active": false,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Decor",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "Nav/Album",
+      "active": true,
+      "width": 61,
+      "height": 48
+    },
+    {
+      "path": "QuickPending",
+      "active": false,
+      "width": 328,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/LanternTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/CurtainTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/CounterTab",
+      "active": false,
+      "width": 98,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/Use",
+      "active": false,
+      "width": 149,
+      "height": 48
+    },
+    {
+      "path": "Decor/Panel/Cancel",
+      "active": false,
+      "width": 124,
+      "height": 48
+    },
+    {
+      "path": "Garden/GUI/Harvest",
+      "active": false,
+      "width": 137,
+      "height": 48
+    },
+    {
+      "path": "Garden/JAS/Harvest",
+      "active": false,
+      "width": 137,
+      "height": 48
+    },
+    {
+      "path": "Garden/Plus30",
+      "active": false,
+      "width": 105,
+      "height": 48
+    },
+    {
+      "path": "Garden/Plus8",
+      "active": false,
+      "width": 104,
+      "height": 48
+    },
+    {
+      "path": "Garden/Offline",
+      "active": false,
+      "width": 105,
+      "height": 48
+    },
+    {
+      "path": "Pending/ReceiveAll",
+      "active": false,
+      "width": 309,
+      "height": 48
+    },
+    {
+      "path": "Pending/Prev",
+      "active": false,
+      "width": 87,
+      "height": 48
+    },
+    {
+      "path": "Pending/Next",
+      "active": false,
+      "width": 87,
+      "height": 48
+    },
+    {
+      "path": "Modal/Panel/Confirm",
+      "active": false,
+      "width": 126,
+      "height": 48
+    },
+    {
+      "path": "Modal/Panel/Cancel",
+      "active": false,
+      "width": 109,
+      "height": 48
+    },
+    {
+      "path": "Pending/Row0",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row1",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row2",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row3",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row4",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Pending/Row5",
+      "active": false,
+      "width": 310,
+      "height": 49
+    },
+    {
+      "path": "Album/Item0",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item1",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item2",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item3",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item4",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item5",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item6",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Album/Item7",
+      "active": false,
+      "width": 74,
+      "height": 127
+    },
+    {
+      "path": "Decor/Panel/Card0",
+      "active": false,
+      "width": 98,
+      "height": 108
+    },
+    {
+      "path": "Decor/Panel/Card1",
+      "active": false,
+      "width": 98,
+      "height": 108
+    },
+    {
+      "path": "Decor/Panel/Card2",
+      "active": false,
+      "width": 98,
+      "height": 108
+    }
+  ],
+  "layoutPreflight": [],
+  "deviceVerified": false,
+  "visualAndSafetyObservation": "pending",
+  "productionBoardPreset": null
+}

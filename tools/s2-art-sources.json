@@ -1,0 +1,125 @@
+{
+  "source": "User-provided Image/*.png, adapted with built-in image_gen; originals preserved",
+  "assets": [
+    {
+      "name": "shop",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-2877aac2-089d-4bf8-bdcf-9d9e46d78995.png",
+      "reference": {
+        "name": "shop",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e76436a1-98c5-4c84-b94c-740651294816.png",
+        "prompt": "Edit this shop artwork into a clean reusable full portrait game backdrop. Preserve the room perspective, moon window, shelves, jars, counters, plants and rich painted materials. Remove ALL baked-in interface: the title/top chapter/currency/settings, bottom buttons/cards/navigation/portraits. Remove both women, ALL hanging and tabletop lanterns, and the green curtain hanging over the right doorway, revealing a clean open doorway. Keep the lantern mounting position and doorway geometry for separately composited sprites. Fill removed areas with the matching room naturally. Whole portrait scene, no UI or text.",
+        "transparent": false
+      }
+    },
+    {
+      "name": "aling",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-1ce7f24e-e7a6-4f30-8845-383d0df90992.png",
+      "reference": {
+        "name": "aling",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\df35dfdb-3af0-4369-9881-ee25538e16ec.png",
+        "prompt": "Extract only the foreground young woman Aling as a clean transparent waist-up sprite. Preserve this EXACT face, hair bun/osmanthus pin, peach-and-ivory hanfu, green embroidered bodice, clasped hands, smile and painted style. Remove the entire room and all interface, speech balloons, cards and text. Include entire hair and hands, clean alpha contour, center with transparent margins.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "lantern-default",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-6c68fb88-821c-4a28-835d-08c01868a35b.png",
+      "reference": {
+        "name": "lantern-default",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Create one unlit plain ivory hanging paper lantern for the same shop, isolated on real transparent background. Oval cream paper lantern, aged wooden/brown ribs and cap, tiny plain beige tassel and short hanging cord. No ornate flower painting, no emitted glow. Entire lantern and cord in frame. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "lantern-osmanthus",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-faaa5451-bd46-4160-8a54-4f0888c58e6a.png",
+      "reference": {
+        "name": "lantern-osmanthus",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Extract/recreate ONLY the large ceiling hanging osmanthus lantern from the upper center of the source. A lit amber ivory lantern, delicate yellow osmanthus and green leaves painted on paper, wooden cap and ribs, long muted vermilion tassel and short cord. Beautiful warm interior illumination; visible soft glow inside the silhouette. Isolated whole single sprite on real transparent background, no room. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "lantern-celadon",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-4bf0aa0d-459a-4e5e-99f6-a11288d8235e.png",
+      "reference": {
+        "name": "lantern-celadon",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Create a second distinct hanging lantern style for the same shop. Elegant six-sided celadon-green silk lantern with ivory jasmine blossom painting, brass/wood slim frame and cap, green tassel and short cord. Warm luminous interior; easy to distinguish from the amber osmanthus lantern. Isolated complete single lantern on transparent background. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "curtain-default",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-80caab2c-106a-4eda-baab-d77c385367a3.png",
+      "reference": {
+        "name": "curtain-default",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Extract/recreate ONLY the DEFAULT ivory curtain shown in the left thumbnail of the source decoration panel. Two beige linen vertical cloth panels, very subtle monochrome botanical twig, straight-on rustic wooden hanging rod. No frame/card/label. Whole isolated curtain and rod on transparent background; no scene. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "curtain-apricot",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-5c6df66b-4b05-41c3-8b73-04539beccef7.png",
+      "reference": {
+        "name": "curtain-apricot",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Extract/recreate ONLY the peach curtain in the middle thumbnail of the source decoration panel. Two warm apricot-peach linen vertical panels with painted white blossoms, fine branches, subtle cloth folds, rustic wooden rod. No frame/card/label. Whole isolated curtain and rod on transparent background; no scene. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "curtain-celadon",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-ef82ba30-52b4-4529-af8a-62a9d2ac2b68.png",
+      "reference": {
+        "name": "curtain-celadon",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\e103f7ff-48f4-4430-bbfd-6d833b15c638.png",
+        "prompt": "Extract/recreate ONLY the celadon curtain in the right thumbnail of the source decoration panel. Two celadon-green linen vertical panels with refined pale yellow osmanthus branches and gentle winding gold river motif, subtle folds and rustic wooden rod. No frame/card/label. Whole isolated curtain and rod on transparent background; no scene. Match the supplied image exactly in visual style: refined painted Chinese game illustration, warm honey-colored wood, ivory plaster, rich delicate celadon and soft gold, detailed osmanthus motifs, crisp readable contours. These are live game sprites, no UI text, currency, locks, frames, other people, or watermark. Preserve the source's design language.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "GUI_1",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-514157d6-31f4-41e7-968f-0b968067b030.png",
+      "reference": {
+        "name": "GUI_1",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\4523e071-534a-40da-b167-fc63d1c254d7.png",
+        "prompt": "Extract/recreate ONLY the first GOLDEN OSMANTHUS cloth bag in the upper row, labelled 素袋. A simple soft honey-gold gathered fabric sachet with green neck tie and sparse small embroidered osmanthus. Keep the uncomplicated level-one silhouette from the provided artwork as a single standalone game item sprite. Preserve refined warm painted illustration, precise brown/gold contours, soft texture and lovely botanical details. Entire object centrally contained in a square with generous real transparent margins. Remove all panels, titles, labels, letters, cards, frames, background, currency and other items. No text or watermark.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "GUI_2",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-2672f494-d325-41bd-8dc2-c441f202ed62.png",
+      "reference": {
+        "name": "GUI_2",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\4523e071-534a-40da-b167-fc63d1c254d7.png",
+        "prompt": "Extract/recreate ONLY the SECOND GOLDEN OSMANTHUS cloth bag in the upper row, labelled 绣囊. Rounded gold embroidered bag, green ribbon and a prominent ivory blossom at the neck, dangling small green tassel. Clearly level two from the provided artwork as a single standalone game item sprite. Preserve refined warm painted illustration, precise brown/gold contours, soft texture and lovely botanical details. Entire object centrally contained in a square with generous real transparent margins. Remove all panels, titles, labels, letters, cards, frames, background, currency and other items. No text or watermark.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "GUI_3",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-8b8997df-247a-4619-86ed-07a1bec58b42.png",
+      "reference": {
+        "name": "GUI_3",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\4523e071-534a-40da-b167-fc63d1c254d7.png",
+        "prompt": "Extract/recreate ONLY the THIRD GOLDEN OSMANTHUS cloth bag in the upper row, labelled 缎囊. Rich golden silk sachet with curved gold cords, delicate osmanthus embroidered spray and two ornate long gold tassels. Clearly more elaborate level three from the provided artwork as a single standalone game item sprite. Preserve refined warm painted illustration, precise brown/gold contours, soft texture and lovely botanical details. Entire object centrally contained in a square with generous real transparent margins. Remove all panels, titles, labels, letters, cards, frames, background, currency and other items. No text or watermark.",
+        "transparent": true
+      }
+    },
+    {
+      "name": "GUI_4",
+      "source": "C:\\Users\\MECHREVO\\.codex\\generated_images\\01a10c18-549d-7662-956c-24646b826c57\\exec-8c208487-450a-4f01-80e2-2595c7d92f15.png",
+      "reference": {
+        "name": "GUI_4",
+        "reference": "D:\\The Perfume Shop Ballad\\Image\\4523e071-534a-40da-b167-fc63d1c254d7.png",
+        "prompt": "Extract/recreate ONLY the FOURTH OSMANTHUS item in the upper row, labelled 礼匣. A small square ivory and honey-gold rigid gift box with distinct lid, gold clasp, hand-painted orange osmanthus blossoms and green leafy corners. Level four box rather than a bag from the provided artwork as a single standalone game item sprite. Preserve refined warm painted illustration, precise brown/gold contours, soft texture and lovely botanical details. Entire object centrally contained in a square with generous real transparent margins. Remove all panels, titles, labels, letters, cards, frames, background, currency and other items. No text or watermark.",
+        "transparent": true
+      }
+    }
+  ]
+}

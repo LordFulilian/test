@@ -1,0 +1,24 @@
+{
+  "stage": "S4",
+  "status": "pending",
+  "runs": [],
+  "preferences": [],
+  "instructions": "把测试页面导出的JSON放入runs；10位玩家完整A/B记录各10分钟，5位先A、5位先B。真实设备场景记录也放入runs。preferences填写participant、choice A或B及reason。模板不是测试结果。",
+  "devicePlan": [
+    {"platform":"Android","model":null,"os":null,"host":null,"sizeAndPerformanceClass":null,"scenarios":["chapter1","chapter2","pressure"],"presets":["A_5x4","B_6x5"],"evidence":null,"status":"not_executed"},
+    {"platform":"Android","model":null,"os":null,"host":null,"sizeAndPerformanceClass":null,"scenarios":["chapter1","chapter2","pressure"],"presets":["A_5x4","B_6x5"],"evidence":null,"status":"not_executed"},
+    {"platform":"iOS","model":null,"os":null,"host":null,"sizeAndPerformanceClass":null,"scenarios":["chapter1","chapter2","pressure"],"presets":["A_5x4","B_6x5"],"evidence":null,"status":"not_executed"}
+  ],
+  "playerPlan": [
+    {"participant":"P01","order":"AB","choice":null,"reason":null},
+    {"participant":"P02","order":"AB","choice":null,"reason":null},
+    {"participant":"P03","order":"AB","choice":null,"reason":null},
+    {"participant":"P04","order":"AB","choice":null,"reason":null},
+    {"participant":"P05","order":"AB","choice":null,"reason":null},
+    {"participant":"P06","order":"BA","choice":null,"reason":null},
+    {"participant":"P07","order":"BA","choice":null,"reason":null},
+    {"participant":"P08","order":"BA","choice":null,"reason":null},
+    {"participant":"P09","order":"BA","choice":null,"reason":null},
+    {"participant":"P10","order":"BA","choice":null,"reason":null}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "pending",
+  "productionBoardPreset": null,
+  "missing": [
+    "至少2台不同尺寸/性能Android，附真实证据",
+    "至少1台iPhone，附真实证据",
+    "实际约360逻辑像素窄屏证据",
+    "10位玩家完整配对记录",
+    "5位AB、5位BA平衡顺序"
+  ],
+  "failures": [],
+  "statusByPreset": {
+    "A_5x4": {
+      "passed": false,
+      "fullMedian": null,
+      "orderMedian": null,
+      "cleanMedian": null,
+      "errors": []
+    },
+    "B_6x5": {
+      "passed": false,
+      "fullMedian": null,
+      "orderMedian": null,
+      "cleanMedian": null,
+      "errors": []
+    }
+  },
+  "evidence": "Observer-confirmed physical-device records only; browser/unit data never establish acceptance."
+}

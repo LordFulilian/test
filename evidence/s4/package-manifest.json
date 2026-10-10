@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "output": "s4-20",
+      "preset": "A",
+      "playHash": "6dff349c39c739f48ec8b7bc8e364651a3d2b96b45e3e788acfdf9ab714b3fe9"
+    },
+    {
+      "output": "s4-30",
+      "preset": "B",
+      "playHash": "6dff349c39c739f48ec8b7bc8e364651a3d2b96b45e3e788acfdf9ab714b3fe9"
+    }
+  ],
+  "productionBoardPreset": null
+}

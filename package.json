@@ -1,0 +1,18 @@
+{
+  "name": "perfume-shop-ballad",
+  "version": "0.4.0",
+  "uuid": "3c6cd60f-060e-4c99-a7f0-5bb1b6de5101",
+  "creator": { "version": "3.8.7" },
+  "scripts": {
+    "test": "node tools/test.cjs && node tools/test-s2.cjs && node tools/test-s3.cjs && node tools/test-s4.cjs",
+    "test:s1": "node tools/test.cjs",
+    "test:s2": "node tools/test-s2.cjs",
+    "test:s3": "node tools/test-s3.cjs",
+    "test:s4": "node tools/test-s4.cjs",
+    "evaluate:s4": "node tools/evaluate-s4.cjs",
+    "delivery:s4": "node tools/create-delivery.cjs",
+    "typecheck": "node tools/typecheck.cjs",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 && node tools/package-s4.cjs && node tools/create-delivery.cjs",
+    "start": "node tools/serve.cjs"
+  }
+}
